@@ -26,7 +26,7 @@ public class Masiivid {
         vastus[0]=vastus[1]=arvud[0];//esimese arvu omistab vastuse molemale kohale 
         for(int arv: arvud){
             if(arv<vastus[0]){vastus[0]=arv;}
-            if(arv<vastus[1]){vastus[1]=arv;}
+            if(arv>vastus[1]){vastus[1]=arv;}
         }
         return vastus;
     }
@@ -45,7 +45,7 @@ public class Masiivid {
     public static void main(String[] arg){
         int[] pikkused={176, 163, 158, 171, 169};
         int[] t=piirid(pikkused);
-        System.out.println(t[0]+" "+t[1]);
+        System.out.println(t[0]+" siin "+t[1]);
         System.out.println(summa(pikkused));
         System.out.println(keskmine(pikkused));
         System.out.println("Kokku: "+pikkused.length);
