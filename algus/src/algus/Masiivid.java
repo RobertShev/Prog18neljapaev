@@ -28,6 +28,7 @@ public class Masiivid {
             if(arv<vastus[0]){vastus[0]=arv;}
             if(arv<vastus[1]){vastus[1]=arv;}
         }
+        return vastus;
     }
     
     
