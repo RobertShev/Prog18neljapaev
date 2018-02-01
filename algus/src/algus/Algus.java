@@ -12,11 +12,22 @@ package algus;
 public class Algus {
 
     /**
-     * programmi algus tookoht. Siit algustakse kaivitamise 
+     * *Arvamus ilma kohta
+     * */
+     
+    public static void ilmaKommentaar() {
+        System.out.println("Hello, web");
+        int temperatuus=-2;
+        if(temeperatuur>0){System.output.println("sulab");}
+        else{System.out.println("jaatab");}
+    }
+    /**
+    * programmi algus tookoht. Siit algustakse kaivitamise 
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+     public static void main(String[] args) {
         System.out.println("Hello, web");
-    }
+        ilmaKommentaar();
+     }
     
 }
