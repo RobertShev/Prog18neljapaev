@@ -32,6 +32,6 @@ public class Algus {
      */
      public static void main(String[] args) {
         System.out.println("Hello, web");
-        ilmaKommentaar(31);
+        ilmaKommentaar(1);
     
 }
