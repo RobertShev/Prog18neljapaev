@@ -15,11 +15,16 @@ public class Algus {
      * *Arvamus ilma kohta
      * */
      
-    public static void ilmaKommentaar() {
-        System.out.println("Hello, web");
-        int temperatuur=-2;
-        if(temperatuur>0){System.out.println("sulab");}
-        else{System.out.println("jaatab");}
+    public static void ilmaKommentaar(int temperatuur){
+        if(temperatuur > 30){
+            System.out.println("palav");
+        }else if(temperatuur == 0){
+            System.out.println("ei muutu");
+        }else if(temperatuur >= 25){
+            System.out.println("sulab");
+        }else{
+            System.out.println("jaatub");
+        }
     }
     /**
     * programmi algus tookoht. Siit algustakse kaivitamise 
@@ -27,7 +32,6 @@ public class Algus {
      */
      public static void main(String[] args) {
         System.out.println("Hello, web");
-        ilmaKommentaar();
-     }
+        ilmaKommentaar(31);
     
 }
